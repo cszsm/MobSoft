@@ -13,6 +13,7 @@
         android:value="25.3.0" />
 
     <application
+        android:name="com.moblab.zsolt.moblab.MobSoftApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
