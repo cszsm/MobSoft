@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "D:\\Repositories\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Repositories\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Repositories\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "D:\\Repositories\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Repositories\\MobSoft\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -76,12 +76,12 @@
         "source": "D:\\Repositories\\MobLab\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
         "merged": "D:\\Repositories\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\Repositories\\MobSoft\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "D:\\Repositories\\MobSoft\\MobLab\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
