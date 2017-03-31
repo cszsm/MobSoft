@@ -12,20 +12,20 @@
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",

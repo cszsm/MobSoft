@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
