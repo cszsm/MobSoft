@@ -16,13 +16,13 @@ ADDED from D:\Users\mobsoft\coffee\MobSoft\app\src\main\AndroidManifest.xml:2:1-
 application
 ADDED from D:\Users\mobsoft\coffee\MobSoft\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Users\mobsoft\.android\build-cache\a5b7720b090efc3f1b047455d03ec8dccf34905b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6f95b05f92382893456ac54f0e8d0819418255bb\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6d4d5fafe1d43d16450f1a554b1f266ce416daaf\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.1] D:\Users\mobsoft\.android\build-cache\6bd6fc790d5884fb7bb3c968068909d61f4c6b98\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] D:\Users\mobsoft\.android\build-cache\f456480ae9239c8fae76df36ee0b50a5a7ce63e8\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] D:\Users\mobsoft\.android\build-cache\bd130152f435baf024ec5b495c8a86ca42fa13d4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] D:\Users\mobsoft\.android\build-cache\194ac65b75a32e7919f7a7fcd077e1929f10134c\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] D:\Users\mobsoft\.android\build-cache\56bb589e5976c425ea908e229d48130da8294715\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6f95b05f92382893456ac54f0e8d0819418255bb\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6d4d5fafe1d43d16450f1a554b1f266ce416daaf\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] D:\Users\mobsoft\.android\build-cache\3f1ad66f88f09adb5f8d0f4ad5f329c945068d54\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from D:\Users\mobsoft\coffee\MobSoft\app\src\main\AndroidManifest.xml:9:9-41
@@ -59,13 +59,14 @@ ADDED from D:\Users\mobsoft\coffee\MobSoft\app\src\main\AndroidManifest.xml:20:9
 uses-sdk
 INJECTED from D:\Users\mobsoft\coffee\MobSoft\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Users\mobsoft\.android\build-cache\a5b7720b090efc3f1b047455d03ec8dccf34905b\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6f95b05f92382893456ac54f0e8d0819418255bb\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6d4d5fafe1d43d16450f1a554b1f266ce416daaf\output\AndroidManifest.xml:20:5-43
+MERGED from [com.github.satyan:sugar:1.4] D:\Users\mobsoft\.android\build-cache\ebada8309e9ad7c60a79d01dca3f955b7e28b8a9\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:25.3.1] D:\Users\mobsoft\.android\build-cache\6bd6fc790d5884fb7bb3c968068909d61f4c6b98\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] D:\Users\mobsoft\.android\build-cache\f456480ae9239c8fae76df36ee0b50a5a7ce63e8\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] D:\Users\mobsoft\.android\build-cache\bd130152f435baf024ec5b495c8a86ca42fa13d4\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.1] D:\Users\mobsoft\.android\build-cache\194ac65b75a32e7919f7a7fcd077e1929f10134c\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] D:\Users\mobsoft\.android\build-cache\56bb589e5976c425ea908e229d48130da8294715\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6f95b05f92382893456ac54f0e8d0819418255bb\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6d4d5fafe1d43d16450f1a554b1f266ce416daaf\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] D:\Users\mobsoft\.android\build-cache\3f1ad66f88f09adb5f8d0f4ad5f329c945068d54\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] D:\Users\mobsoft\.android\build-cache\a5b7720b090efc3f1b047455d03ec8dccf34905b\output\AndroidManifest.xml:23:9-75
@@ -77,13 +78,13 @@ MERGED from [com.android.support:support-compat:25.3.1] D:\Users\mobsoft\.androi
 		INJECTED from D:\Users\mobsoft\coffee\MobSoft\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:25.3.1] D:\Users\mobsoft\.android\build-cache\a5b7720b090efc3f1b047455d03ec8dccf34905b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6f95b05f92382893456ac54f0e8d0819418255bb\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6d4d5fafe1d43d16450f1a554b1f266ce416daaf\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] D:\Users\mobsoft\.android\build-cache\6bd6fc790d5884fb7bb3c968068909d61f4c6b98\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] D:\Users\mobsoft\.android\build-cache\f456480ae9239c8fae76df36ee0b50a5a7ce63e8\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] D:\Users\mobsoft\.android\build-cache\bd130152f435baf024ec5b495c8a86ca42fa13d4\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.1] D:\Users\mobsoft\.android\build-cache\194ac65b75a32e7919f7a7fcd077e1929f10134c\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] D:\Users\mobsoft\.android\build-cache\56bb589e5976c425ea908e229d48130da8294715\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6f95b05f92382893456ac54f0e8d0819418255bb\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Users\mobsoft\.android\build-cache\6d4d5fafe1d43d16450f1a554b1f266ce416daaf\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.1] D:\Users\mobsoft\.android\build-cache\3f1ad66f88f09adb5f8d0f4ad5f329c945068d54\output\AndroidManifest.xml:25:5-27:34
 	android:value
 		ADDED from [com.android.support:appcompat-v7:25.3.1] D:\Users\mobsoft\.android\build-cache\a5b7720b090efc3f1b047455d03ec8dccf34905b\output\AndroidManifest.xml:27:9-31
