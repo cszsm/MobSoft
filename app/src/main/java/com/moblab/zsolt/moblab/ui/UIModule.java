@@ -25,7 +25,7 @@ public class UIModule {
     @Provides
     @Singleton
     public MainPresenter provideMainPresenter() {
-        return new MainPresenter();
+        return MainPresenter.getInstance();
     }
 
 }

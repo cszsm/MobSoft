@@ -1,42 +1,42 @@
 [
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\27ccf669ed7cabcc54af2729bf3248285600e1b1\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\anim\\abc_fade_out.xml"
     }
 ]

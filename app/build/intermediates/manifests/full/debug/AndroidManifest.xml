@@ -10,7 +10,7 @@
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="25.3.0" />
+        android:value="25.3.1" />
 
     <application
         android:name="com.moblab.zsolt.moblab.MobSoftApplication"
@@ -27,6 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.moblab.zsolt.moblab.ui.details.DetailsActivity" />
     </application>
 
 </manifest>
