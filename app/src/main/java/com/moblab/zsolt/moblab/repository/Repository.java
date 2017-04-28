@@ -18,7 +18,7 @@ public interface Repository {
 
     List<Coffee> getCoffees();
 
-    void saveCoffees(Coffee coffee);
+    void saveCoffee(Coffee coffee);
 
     void updateCoffees(List<Coffee> coffees);
 

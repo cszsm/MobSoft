@@ -31,7 +31,7 @@ public class SugarOrmRepository implements Repository {
     }
 
     @Override
-    public void saveCoffees(Coffee coffee) {
+    public void saveCoffee(Coffee coffee) {
         SugarRecord.saveInTx(coffee);
     }
 
