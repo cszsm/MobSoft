@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\9d60bc86bb199f36636bd3b04036c54b00f52824\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\9d60bc86bb199f36636bd3b04036c54b00f52824\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
         "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\9d60bc86bb199f36636bd3b04036c54b00f52824\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -150,6 +150,10 @@
     {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\9d60bc86bb199f36636bd3b04036c54b00f52824\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list.xml",
+        "source": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\src\\main\\res\\layout\\activity_list.xml"
     },
     {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
@@ -330,6 +334,10 @@
     {
         "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registration.xml",
+        "source": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\src\\main\\res\\layout\\activity_registration.xml"
     },
     {
         "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
