@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "D:\\Users\\mobsoft\\.android\\build-cache\\709a0eadaf6576e1ae37bc1ddf7c649b3a8d68f3\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Zsolt\\.android\\build-cache\\231da1055cf40df4566271b5230a009c2decc65d\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
