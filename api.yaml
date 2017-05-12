@@ -7,7 +7,7 @@ paths:
     post:
       tags:
       - coffee
-      summary: Add a new coffee to the store
+      summary: Add a new coffee
       operationId: addCoffee
       consumes:
       - application/json
@@ -18,43 +18,18 @@ paths:
       parameters:
       - in: body
         name: body
-        description: Coffee object that needs to be added to the store
+        description: Coffee object that needs to be added
         required: true
         schema:
           $ref: '#/definitions/Coffee'
       responses:
         405:
           description: Invalid input
-    put:
-      tags:
-      - coffee
-      summary: Update an existing coffee
-      operationId: updateCoffee
-      consumes:
-      - application/json
-      - application/xml
-      produces:
-      - application/json
-      - application/xml
-      parameters:
-      - in: body
-        name: body
-        description: Coffee object that needs to be added to the store
-        required: true
-        schema:
-          $ref: '#/definitions/Coffee'
-      responses:
-        400:
-          description: Invalid ID supplied
-        404:
-          description: Coffee not found
-        405:
-          description: Validation exception
   /coffee/{coffeeId}:
     get:
       tags:
       - coffee
-      summary: Find pet by ID
+      summary: Find coffee by ID
       description: Returns a single coffee
       operationId: getCoffeeById
       produces:
@@ -76,36 +51,6 @@ paths:
           description: Invalid ID supplied
         404:
           description: Coffee not found
-    post:
-      tags:
-      - coffee
-      summary: Updates a coffee in the store with form data
-      operationId: updateCoffeeWithForm
-      consumes:
-      - application/x-www-form-urlencoded
-      produces:
-      - application/json
-      - application/xml
-      parameters:
-      - name: coffeeId
-        in: path
-        description: ID of coffee that needs to be updated
-        required: true
-        type: integer
-        format: int64
-      - name: name
-        in: formData
-        description: Updated name of the coffee
-        required: false
-        type: string
-      - name: status
-        in: formData
-        description: Updated status of the coffee
-        required: false
-        type: string
-      responses:
-        405:
-          description: Invalid input
     delete:
       tags:
       - coffee
@@ -130,6 +75,54 @@ paths:
           description: Invalid ID supplied
         404:
           description: Coffee not found
+  /user:
+    post:
+      tags:
+      - user
+      summary: Add a new user
+      operationId: addUser
+      consumes:
+      - application/json
+      - application/xml
+      produces:
+      - application/json
+      - application/xml
+      parameters:
+      - in: body
+        name: body
+        description: User object that needs to be added
+        required: true
+        schema:
+          $ref: '#/definitions/User'
+      responses:
+        405:
+          description: Invalid input
+  /user/{userId}:
+    get:
+      tags:
+      - user
+      summary: Find user by ID
+      description: Returns a single user
+      operationId: getUserById
+      produces:
+      - application/json
+      - application/xml
+      parameters:
+      - name: userId
+        in: path
+        description: ID of user to return
+        required: true
+        type: integer
+        format: int64
+      responses:
+        200:
+          description: successful operation
+          schema:
+            $ref: '#/definitions/User'
+        400:
+          description: Invalid ID supplied
+        404:
+          description: User not found
 definitions:
   Coffee:
     type: object
@@ -147,6 +140,19 @@ definitions:
         items:
           type: string
       preparation:
+        type: string
+  User:
+    type: object
+    required:
+    - username
+    - password
+    properties:
+      id:
+        type: integer
+        format: int64
+      username:
+        type: string
+      password:
         type: string
 host: virtserver.swaggerhub.com
 basePath: /zscseh93/Coffee/1.0.0

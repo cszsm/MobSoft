@@ -1,5 +1,6 @@
 package com.moblab.zsolt.moblab.model;
 
+import com.google.gson.annotations.SerializedName;
 import com.orm.dsl.Table;
 
 import java.util.List;
@@ -12,8 +13,14 @@ import java.util.List;
 public class Coffee {
 
     private Long id = null;
+
+    @SerializedName("name")
     private String name;
+
+    @SerializedName("ingredients")
     private List<String> ingredients;
+
+    @SerializedName("preparation")
     private String preparation;
 
     public Coffee() {
