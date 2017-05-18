@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MobLab</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Create a new account</string>
+    <string name="create">Create</string>
+    <string name="back">Back</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="preparation">Preparation</string>
 </resources>

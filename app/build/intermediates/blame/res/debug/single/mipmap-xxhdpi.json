@@ -1,13 +1,5 @@
 [
     {
-        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
-        "source": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "D:\\Repositories\\MobSoft\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

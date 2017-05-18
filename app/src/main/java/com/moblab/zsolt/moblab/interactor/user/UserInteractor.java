@@ -1,12 +1,14 @@
 package com.moblab.zsolt.moblab.interactor.user;
 
-import com.google.common.eventbus.EventBus;
 import com.moblab.zsolt.moblab.MobSoftApplication;
 import com.moblab.zsolt.moblab.interactor.user.event.LoginEvent;
+import com.moblab.zsolt.moblab.interactor.user.event.SignUpEvent;
 import com.moblab.zsolt.moblab.model.User;
 import com.moblab.zsolt.moblab.repository.Repository;
 
 import javax.inject.Inject;
+
+import de.greenrobot.event.EventBus;
 
 /**
  * Created by mobsoft on 2017. 05. 12..
@@ -36,7 +38,7 @@ public class UserInteractor {
     }
 
     public void signUp(User user) {
-        LoginEvent event = new LoginEvent();
+        SignUpEvent event = new SignUpEvent();
         try {
             // TODO: sign up
             bus.post(event);

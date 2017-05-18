@@ -1,5 +1,8 @@
 package com.moblab.zsolt.moblab.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import com.google.gson.annotations.SerializedName;
 import com.orm.dsl.Table;
 
@@ -10,7 +13,7 @@ import java.util.List;
  */
 
 @Table
-public class Coffee {
+public class Coffee implements Parcelable {
 
     private Long id = null;
 
@@ -26,7 +29,7 @@ public class Coffee {
     public Coffee() {
     }
 
-    public Coffee(Long id, List<String> ingredients, String name, String preparation) {
+    public Coffee(Long id, String name, List<String> ingredients, String preparation) {
         this.id = id;
         this.ingredients = ingredients;
         this.name = name;
@@ -63,5 +66,18 @@ public class Coffee {
 
     public void setPreparation(String preparation) {
         this.preparation = preparation;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeLong(id);
+        dest.writeString(name);
+        dest.writeList(ingredients);
+        dest.writeString(preparation);
     }
 }

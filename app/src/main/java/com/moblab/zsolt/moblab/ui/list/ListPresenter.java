@@ -1,12 +1,13 @@
 package com.moblab.zsolt.moblab.ui.list;
 
-import com.google.common.eventbus.EventBus;
 import com.moblab.zsolt.moblab.interactor.coffee.CoffeeInteractor;
 import com.moblab.zsolt.moblab.ui.Presenter;
 
 import java.util.concurrent.Executor;
 
 import javax.inject.Inject;
+
+import de.greenrobot.event.EventBus;
 
 import static com.moblab.zsolt.moblab.MobSoftApplication.injector;
 
@@ -24,8 +25,6 @@ public class ListPresenter extends Presenter<ListScreen> {
 
     @Inject
     EventBus bus;
-
-    private static ListPresenter instance = null;
 
     @Override
     public void attachScreen(ListScreen screen) {

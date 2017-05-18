@@ -32,7 +32,8 @@
         </activity>
         <activity android:name=".ui.details.DetailsActivity" />
         <activity android:name=".ui.registration.RegistrationActivity" />
-        <activity android:name=".ui.list.ListActivity"></activity>
+        <activity android:name=".ui.list.ListActivity" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\Users\\mobsoft\\coffee\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
-        "source": "D:\\Users\\mobsoft\\.android\\build-cache\\a5b7720b090efc3f1b047455d03ec8dccf34905b\\output\\res\\layout-v16\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\9d60bc86bb199f36636bd3b04036c54b00f52824\\output\\res\\layout-v16\\notification_template_custom_big.xml"
     }

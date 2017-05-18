@@ -1,6 +1,7 @@
 package com.moblab.zsolt.moblab.interactor;
 
 import com.moblab.zsolt.moblab.interactor.coffee.CoffeeInteractor;
+import com.moblab.zsolt.moblab.interactor.user.UserInteractor;
 
 import dagger.Module;
 import dagger.Provides;
@@ -15,5 +16,10 @@ public class InteractorModule {
     @Provides
     public CoffeeInteractor provideCoffee() {
         return new CoffeeInteractor();
+    }
+
+    @Provides
+    public UserInteractor provideUser() {
+        return new UserInteractor();
     }
 }

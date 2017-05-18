@@ -1,16 +1,18 @@
 package com.moblab.zsolt.moblab.interactor.coffee;
 
-import com.google.common.eventbus.EventBus;
 import com.moblab.zsolt.moblab.MobSoftApplication;
 import com.moblab.zsolt.moblab.interactor.coffee.event.GetCoffeeEvent;
 import com.moblab.zsolt.moblab.interactor.coffee.event.RemoveCoffeeEvent;
 import com.moblab.zsolt.moblab.interactor.coffee.event.SaveCoffeeEvent;
 import com.moblab.zsolt.moblab.model.Coffee;
+import com.moblab.zsolt.moblab.network.coffee.CoffeeApi;
 import com.moblab.zsolt.moblab.repository.Repository;
 
 import java.util.List;
 
 import javax.inject.Inject;
+
+import de.greenrobot.event.EventBus;
 
 /**
  * Created by mobsoft on 2017. 04. 28..

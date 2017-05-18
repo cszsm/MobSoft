@@ -5,4 +5,7 @@ package com.moblab.zsolt.moblab.ui.registration;
  */
 
 public interface RegistrationScreen {
+    void showMessage(String text);
+
+    void createUser();
 }

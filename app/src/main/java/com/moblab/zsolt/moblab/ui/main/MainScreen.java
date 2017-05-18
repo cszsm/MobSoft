@@ -6,4 +6,6 @@ package com.moblab.zsolt.moblab.ui.main;
 
 public interface MainScreen {
     void showMessage(String text);
+
+    void navigateToList();
 }

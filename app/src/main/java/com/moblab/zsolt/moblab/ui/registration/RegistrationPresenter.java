@@ -1,7 +1,8 @@
 package com.moblab.zsolt.moblab.ui.registration;
 
-import com.google.common.eventbus.EventBus;
 import com.moblab.zsolt.moblab.interactor.user.UserInteractor;
+import com.moblab.zsolt.moblab.interactor.user.event.LoginEvent;
+import com.moblab.zsolt.moblab.interactor.user.event.SignUpEvent;
 import com.moblab.zsolt.moblab.model.User;
 import com.moblab.zsolt.moblab.ui.Presenter;
 
@@ -9,11 +10,9 @@ import java.util.concurrent.Executor;
 
 import javax.inject.Inject;
 
-import static com.moblab.zsolt.moblab.MobSoftApplication.injector;
+import de.greenrobot.event.EventBus;
 
-/**
- * Created by mobsoft on 2017. 05. 12..
- */
+import static com.moblab.zsolt.moblab.MobSoftApplication.injector;
 
 public class RegistrationPresenter extends Presenter<RegistrationScreen> {
 
@@ -25,8 +24,6 @@ public class RegistrationPresenter extends Presenter<RegistrationScreen> {
 
     @Inject
     EventBus bus;
-
-    private static RegistrationPresenter instance = null;
 
     @Override
     public void attachScreen(RegistrationScreen screen) {
@@ -48,5 +45,18 @@ public class RegistrationPresenter extends Presenter<RegistrationScreen> {
                 userInteractor.signUp(user);
             }
         });
+    }
+
+    public void onEvent(SignUpEvent event) {
+        if (event.getThrowable() != null) {
+            event.getThrowable().printStackTrace();
+            if (screen != null) {
+                screen.showMessage("error");
+            }
+        } else {
+            if (screen != null) {
+                screen.createUser();
+            }
+        }
     }
 }

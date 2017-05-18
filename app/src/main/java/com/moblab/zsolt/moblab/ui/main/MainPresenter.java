@@ -1,13 +1,18 @@
 package com.moblab.zsolt.moblab.ui.main;
 
-import com.google.common.eventbus.EventBus;
+import android.util.Log;
+
 import com.moblab.zsolt.moblab.interactor.user.UserInteractor;
+import com.moblab.zsolt.moblab.interactor.user.event.LoginEvent;
+import com.moblab.zsolt.moblab.interactor.user.event.SignUpEvent;
 import com.moblab.zsolt.moblab.model.User;
 import com.moblab.zsolt.moblab.ui.Presenter;
 
 import java.util.concurrent.Executor;
 
 import javax.inject.Inject;
+
+import de.greenrobot.event.EventBus;
 
 import static com.moblab.zsolt.moblab.MobSoftApplication.injector;
 
@@ -21,8 +26,6 @@ public class MainPresenter extends Presenter<MainScreen> {
 
     @Inject
     EventBus bus;
-
-    private static MainPresenter instance = null;
 
     @Override
     public void attachScreen(MainScreen screen) {
@@ -44,5 +47,18 @@ public class MainPresenter extends Presenter<MainScreen> {
                 userInteractor.login(user);
             }
         });
+    }
+
+    public void onEvent(LoginEvent event) {
+        if (event.getThrowable() != null) {
+            event.getThrowable().printStackTrace();
+            if (screen != null) {
+                screen.showMessage("error");
+            }
+        } else {
+            if (screen != null) {
+                screen.navigateToList();
+            }
+        }
     }
 }
