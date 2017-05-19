@@ -1,24 +1,34 @@
 package com.moblab.zsolt.moblab.ui.list;
 
+import android.app.FragmentManager;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 
 import com.moblab.zsolt.moblab.R;
 import com.moblab.zsolt.moblab.model.Coffee;
+import com.moblab.zsolt.moblab.ui.add.AddCoffeeFragment;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.StringTokenizer;
+
+import javax.inject.Inject;
 
 import static com.moblab.zsolt.moblab.MobSoftApplication.injector;
 
-public class ListActivity extends AppCompatActivity implements ListScreen {
+public class ListActivity extends AppCompatActivity implements ListScreen, AddCoffeeFragment.ItemContainer {
+
+    @Inject
+    ListPresenter presenter;
 
     private RecyclerView recyclerView;
-    private RecyclerView.Adapter adapter;
+    private CoffeeListAdapter adapter;
     private RecyclerView.LayoutManager layoutManager;
+
+    private List<Coffee> coffees;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +44,23 @@ public class ListActivity extends AppCompatActivity implements ListScreen {
 
         adapter = new CoffeeListAdapter(getExamples());
         recyclerView.setAdapter(adapter);
+
+        FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AddCoffeeFragment fragment = new AddCoffeeFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                fragment.show(fragmentManager, "FRAGMENT_TAG");
+            }
+        });
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        presenter.attachScreen(this);
+        presenter.getCoffees();
     }
 
     private List<Coffee> getExamples() {
@@ -58,5 +85,15 @@ public class ListActivity extends AppCompatActivity implements ListScreen {
         examples.add(new Coffee(3l, "latte macchiato", iLatteMacchiato, "dolgok"));
 
         return examples;
+    }
+
+    @Override
+    public void showCoffees(List<Coffee> coffees) {
+        adapter.update(getExamples());
+    }
+
+    @Override
+    public void update() {
+        adapter.update(getExamples());
     }
 }

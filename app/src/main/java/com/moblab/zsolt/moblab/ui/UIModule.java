@@ -2,6 +2,7 @@ package com.moblab.zsolt.moblab.ui;
 
 import android.content.Context;
 
+import com.moblab.zsolt.moblab.ui.add.AddCoffeePresenter;
 import com.moblab.zsolt.moblab.ui.list.ListPresenter;
 import com.moblab.zsolt.moblab.ui.main.MainPresenter;
 import com.moblab.zsolt.moblab.ui.registration.RegistrationPresenter;
@@ -44,6 +45,12 @@ public class UIModule {
     @Singleton
     public ListPresenter provideListPresenter() {
         return new ListPresenter();
+    }
+
+    @Provides
+    @Singleton
+    public AddCoffeePresenter addCoffeePresenter() {
+        return new AddCoffeePresenter();
     }
 
     @Provides

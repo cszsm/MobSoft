@@ -65,4 +65,9 @@ public class CoffeeListAdapter extends RecyclerView.Adapter<CoffeeListAdapter.Vi
             this.textView = (TextView) view.findViewById(R.id.coffee_name);
         }
     }
+
+    public void update(List<Coffee> coffees) {
+        this.coffees = coffees;
+        notifyDataSetChanged();
+    }
 }

@@ -1,6 +1,7 @@
 package com.moblab.zsolt.moblab.ui.list;
 
 import com.moblab.zsolt.moblab.interactor.coffee.CoffeeInteractor;
+import com.moblab.zsolt.moblab.interactor.coffee.event.GetCoffeeEvent;
 import com.moblab.zsolt.moblab.ui.Presenter;
 
 import java.util.concurrent.Executor;
@@ -37,5 +38,20 @@ public class ListPresenter extends Presenter<ListScreen> {
     public void detachScreen() {
         super.detachScreen();
         bus.unregister(this);
+    }
+
+    public void getCoffees() {
+        executor.execute(new Runnable() {
+            @Override
+            public void run() {
+                coffeeInteractor.getCoffees();
+            }
+        });
+    }
+
+    public void onEvent(GetCoffeeEvent event) {
+        if (screen != null) {
+            screen.showCoffees(event.getCoffees());
+        }
     }
 }

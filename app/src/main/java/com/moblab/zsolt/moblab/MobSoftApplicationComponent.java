@@ -6,6 +6,8 @@ import com.moblab.zsolt.moblab.interactor.user.UserInteractor;
 import com.moblab.zsolt.moblab.network.NetworkModule;
 import com.moblab.zsolt.moblab.repository.RepositoryModule;
 import com.moblab.zsolt.moblab.ui.UIModule;
+import com.moblab.zsolt.moblab.ui.add.AddCoffeeFragment;
+import com.moblab.zsolt.moblab.ui.add.AddCoffeePresenter;
 import com.moblab.zsolt.moblab.ui.details.DetailsActivity;
 import com.moblab.zsolt.moblab.ui.details.DetailsPresenter;
 import com.moblab.zsolt.moblab.ui.list.ListActivity;
@@ -44,4 +46,8 @@ public interface MobSoftApplicationComponent {
     void inject(DetailsActivity detailsActivity);
 
     void inject(DetailsPresenter detailsPresenter);
+
+    void inject(AddCoffeeFragment addCoffeeFragment);
+
+    void inject(AddCoffeePresenter addCoffeePresenter);
 }

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Zsolt\\.android\\build-cache\\fcdaa6dd37c4aa376f55d2e70515a47448223043\\output\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
         "merged": "D:\\Repositories\\MobSoft\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
         "source": "C:\\Users\\Zsolt\\.android\\build-cache\\9d60bc86bb199f36636bd3b04036c54b00f52824\\output\\res\\color-v23\\abc_tint_spinner.xml"
     },

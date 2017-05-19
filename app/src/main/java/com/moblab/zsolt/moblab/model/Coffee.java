@@ -31,10 +31,29 @@ public class Coffee implements Parcelable {
 
     public Coffee(Long id, String name, List<String> ingredients, String preparation) {
         this.id = id;
-        this.ingredients = ingredients;
         this.name = name;
+        this.ingredients = ingredients;
         this.preparation = preparation;
     }
+
+    protected Coffee(Parcel in) {
+        id = in.readLong();
+        name = in.readString();
+        ingredients = in.createStringArrayList();
+        preparation = in.readString();
+    }
+
+    public static final Creator<Coffee> CREATOR = new Creator<Coffee>() {
+        @Override
+        public Coffee createFromParcel(Parcel in) {
+            return new Coffee(in);
+        }
+
+        @Override
+        public Coffee[] newArray(int size) {
+            return new Coffee[size];
+        }
+    };
 
     public Long getId() {
         return id;
